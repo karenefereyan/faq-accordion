@@ -18,7 +18,10 @@
 
   <div class="container">
     <div class="image-container">
-      <img src="images/illustration-woman-online-desktop.svg" alt="">
+      <img src="images/illustration-woman-online-desktop.svg" 
+      class="positioned-woman" alt="woman online">
+      <!-- <img src="images/illustration-box-desktop.svg" 
+      class="positioned-box" alt="Box"> -->
     </div>
     <div class="text-container">
       <h1>FAQ</h1>
@@ -27,8 +30,9 @@
         <li>
           <div class="accordion">
             <p> How many team members can I invite?</p>
-            <i class="fa fa-angle-up" aria-hidden="true"></i>
-            <!-- <img src="images/icon-arrow-down.svg" alt="" class="dropdown"> -->
+            <!-- <a href="" class="dropdown"><i class="fa fa-angle-down" aria-hidden="true"></i></a> -->
+           
+            <img src="images/icon-arrow-down.svg" alt="" class="dropdown">
           </div>
           <div class="panel">
             <p> 
@@ -105,19 +109,6 @@
     Coded by <a href="#">Karen Simisola Efereyan</a>.
   </div>
 
-  <script>
-    let icon = document.getElementsByClassName("dropdown");
-    let i;
-    for(i=0; i<icon.length; i++){
-      icon[i].addEventListener("click", function(){
-        let newEl= this.parentElement.nextElementSibling;
-        newEl.classList.toggle("show");
-        // icon.innerHTML = <i class="fa fa-angle-up" aria-hidden="true"></i>;
-        console.log("The new element is", newEl);
-
-       
-      })
-    }
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>
