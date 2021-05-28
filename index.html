@@ -12,26 +12,26 @@
   
   <title>Frontend Mentor | FAQ Accordion Card</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
 
   <div class="container">
     <div class="image-container">
-      <img src="images/illustration-woman-online-desktop.svg" 
-      class="positioned-woman" alt="woman online">
-      <!-- <img src="images/illustration-box-desktop.svg" 
-      class="positioned-box" alt="Box"> -->
+      <div class="pattern-image">
+        <img class="pattern-img" src="./images/bg-pattern-desktop.svg" alt="Mobile pattern background">
+      </div>
+    
     </div>
+
     <div class="text-container">
+      <div class="wrapper">
       <h1>FAQ</h1>
       <ul>
         <!-- First FAQ -->
         <li>
           <div class="accordion">
             <p> How many team members can I invite?</p>
-            <!-- <a href="" class="dropdown"><i class="fa fa-angle-down" aria-hidden="true"></i></a> -->
-           
             <img src="images/icon-arrow-down.svg" alt="" class="dropdown">
           </div>
           <div class="panel">
@@ -48,6 +48,7 @@
             <p>What is the maximum file upload size?</p>
             <img src="images/icon-arrow-down.svg" alt="" class="dropdown">
           </div>
+
           <div class="panel">
             <p> 
               No more than 2GB. All files in your account must fit 
@@ -103,12 +104,13 @@
       </ul>
     </div>
   </div>
+ </div>
 
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Karen Simisola Efereyan</a>.
   </div>
 
-  <script src="script.js"></script>
+  <script src="./script.js"></script>
 </body>
 </html>
