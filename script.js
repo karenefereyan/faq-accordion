@@ -22,11 +22,13 @@ function displayText(e){
     
     if (answer.style.display === "block") {
         answer.style.display = "none";
+        // arrow.style.marginRight = "0px";
         questionHeading.style.color = "hsl(240, 6%, 50%)";
         questionHeading.style.fontWeight="normal";
         arrow.style.transform = "rotate(0deg)";
       } else {
         answer.style.display = "block";
+        // arrow.style.marginRight = "15px";
         questionHeading.style.color = "hsl(237, 12%,33%)";
         questionHeading.style.fontWeight="bold";
         arrow.style.transform = "rotate(180deg)";
