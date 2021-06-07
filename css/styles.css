@@ -63,15 +63,10 @@ body{
     left: -495px;
 }
 
-.pattern-image::before{
-    content: "";
-    background: url("/images/illustration-woman-online-desktop.svg") no-repeat
-    center center/cover;
+.bg-woman{
     position: absolute;
-    width: 490px;
-    height: 370px; 
     top: 50px;
-    left: -115px;
+    left: -100px;
     z-index: 10;
 }
 
@@ -208,6 +203,10 @@ img.dropdown{
         height: fit-content;
     }
 
+    .bg-woman{
+        display: none;
+    }
+
     .image-container{
         display: none;
     }
@@ -222,7 +221,7 @@ img.dropdown{
         background: url("/images/illustration-woman-online-mobile.svg") no-repeat
         center center/cover;
         position: absolute;
-        top: 50px;
+        top: -40px;
         left: 50px;
         width: 260px;
         height: 189px;
@@ -234,7 +233,7 @@ img.dropdown{
         background: url("/images/bg-pattern-mobile.svg") no-repeat center
         center/cover;
         position: absolute;
-        top: 60px;
+        top: -30px;
         left: 90px;
         width: 200px;
         height: 200px;
